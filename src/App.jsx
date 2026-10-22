@@ -16,10 +16,13 @@ function App() {
   return (
     <>
 
-    <h1 style={{backgroundColor:`${color}`}}>Hello World</h1>
-    <h2>This is a smaller header</h2>
-    <input onKeyDown={enterKey} id='yolo' type='search' placeholder='Search' style={{borderRadius:'10px'}}></input>
+      <div style={{display:'flex', justifyContent:'center'}}>
+        <h1 style={{width:"fit-content", padding:"10px", backgroundColor:`${color}`}} >Da Bois Shop</h1>
+      </div>
 
+      <div style={{display:'flex', justifyContent:'center'}}>
+        <input onKeyDown={enterKey} id='yolo' type='search' placeholder='Search' style={{width:'25%', border:'2px solid black', borderRadius:'20px', padding:'8px'}}></input>
+      </div>
 
     </>
   )
